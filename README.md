@@ -11,5 +11,7 @@ web服务器部署： nginx 1.14  uwsgi 2.0.18
 开发环境： ubuntu 18    vscode
 ## 文件夹介绍
 dailyfresh  项目主体文件夹，存放项目代码
+
 details     项目详情文件夹，存放项目介绍文档
 
+others	    其他说明文件
