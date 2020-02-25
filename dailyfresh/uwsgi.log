@@ -1,0 +1,769 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 22:40:21 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x5557e2b73600
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5557e2b73600 pid: 22362 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22362)
+spawned uWSGI worker 1 (pid: 22366, cores: 2)
+spawned uWSGI worker 2 (pid: 22368, cores: 2)
+spawned uWSGI worker 3 (pid: 22369, cores: 2)
+spawned uWSGI worker 4 (pid: 22372, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 22:41:26 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x5580f4442600
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5580f4442600 pid: 22394 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22394)
+spawned uWSGI worker 1 (pid: 22398, cores: 2)
+spawned uWSGI worker 2 (pid: 22400, cores: 2)
+spawned uWSGI worker 3 (pid: 22401, cores: 2)
+spawned uWSGI worker 4 (pid: 22404, cores: 2)
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+invalid request block size: 21573 (max 4096)...skip
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 22:45:11 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 6
+uwsgi socket 0 bound to TCP address 127.0.0.1:45057 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x561e7de436f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x561e7de436f0 pid: 22439 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22439)
+spawned uWSGI worker 1 (pid: 22443, cores: 2)
+spawned uWSGI worker 2 (pid: 22445, cores: 2)
+spawned uWSGI worker 3 (pid: 22447, cores: 2)
+spawned uWSGI worker 4 (pid: 22449, cores: 2)
+spawned uWSGI http 1 (pid: 22451)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 22451)
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 22:45:20 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8080 fd 6
+uwsgi socket 0 bound to TCP address 127.0.0.1:37215 (port auto-assigned) fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x56323797f6f0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56323797f6f0 pid: 22459 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22459)
+spawned uWSGI worker 1 (pid: 22463, cores: 2)
+spawned uWSGI worker 2 (pid: 22465, cores: 2)
+spawned uWSGI worker 3 (pid: 22467, cores: 2)
+spawned uWSGI worker 4 (pid: 22469, cores: 2)
+spawned uWSGI http 1 (pid: 22471)
+[pid: 22469|app: 0|req: 1/1] 127.0.0.1 () {36 vars in 608 bytes} [Mon Feb 24 22:45:28 2020] GET / => generated 8389 bytes in 1703 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 3/2] 127.0.0.1 () {36 vars in 595 bytes} [Mon Feb 24 22:45:30 2020] GET /static/css/reset.css => generated 179 bytes in 11 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 3/3] 127.0.0.1 () {36 vars in 593 bytes} [Mon Feb 24 22:45:30 2020] GET /static/css/main.css => generated 179 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 2/4] 127.0.0.1 () {36 vars in 576 bytes} [Mon Feb 24 22:45:30 2020] GET /static/js/slide.js => generated 179 bytes in 331 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 1/5] 127.0.0.1 () {36 vars in 592 bytes} [Mon Feb 24 22:45:30 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 335 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 2/6] 127.0.0.1 () {36 vars in 600 bytes} [Mon Feb 24 22:45:30 2020] GET /static/js/jquery-1.12.4.min.js => generated 179 bytes in 347 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 4/7] 127.0.0.1 () {36 vars in 595 bytes} [Mon Feb 24 22:45:30 2020] GET /static/images/logo.png => generated 179 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 5/8] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide04.jpg => generated 179 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22465|app: 0|req: 2/9] 127.0.0.1 () {36 vars in 611 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide_dHGFI2N.jpg => generated 179 bytes in 11 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22463|app: 0|req: 3/10] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide03.jpg => generated 179 bytes in 14 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 3/11] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods004.jpg => generated 179 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22463|app: 0|req: 4/12] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner02.jpg => generated 179 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22463|app: 0|req: 5/13] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/slide03.jpg => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 7/14] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods002.jpg => generated 179 bytes in 17 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 8/15] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods008.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 9/16] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods016.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 9/17] 127.0.0.1 () {36 vars in 607 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods_detail.jpg => generated 179 bytes in 28 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 4/18] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods021.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 6/19] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner06.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 7/20] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/slide04.jpg => generated 179 bytes in 44 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 7/21] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner05.jpg => generated 179 bytes in 12 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22465|app: 0|req: 7/22] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner04.jpg => generated 179 bytes in 46 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22463|app: 0|req: 8/23] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods018.jpg => generated 179 bytes in 52 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 8/24] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner03.jpg => generated 179 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22463|app: 0|req: 9/25] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide02.jpg => generated 179 bytes in 13 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 10/26] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner01.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 11/27] 127.0.0.1 () {36 vars in 592 bytes} [Mon Feb 24 22:45:30 2020] GET /static/js/jquery-ui.min.js => generated 179 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 8/28] 127.0.0.1 () {36 vars in 576 bytes} [Mon Feb 24 22:45:30 2020] GET /static/js/slide.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 12/29] 127.0.0.1 () {36 vars in 595 bytes} [Mon Feb 24 22:45:30 2020] GET /static/images/logo.png => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22465|app: 0|req: 9/30] 127.0.0.1 () {36 vars in 611 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide_dHGFI2N.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 13/31] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide02.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 10/32] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide03.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 14/33] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/slide04.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 15/34] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner01.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22465|app: 0|req: 11/35] 127.0.0.1 () {36 vars in 607 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods_detail.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 16/36] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods002.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 17/38] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods004.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22463|app: 0|req: 10/38] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner02.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22465|app: 0|req: 12/39] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner03.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 18/40] 127.0.0.1 () {36 vars in 599 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods021.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 19/41] 127.0.0.1 () {36 vars in 597 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/slide03.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 11/42] 127.0.0.1 () {36 vars in 596 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/slide04.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 20/43] 127.0.0.1 () {36 vars in 596 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner04.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 12/44] 127.0.0.1 () {36 vars in 596 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner05.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 22/45] 127.0.0.1 () {36 vars in 598 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods008.jpg => generated 179 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22469|app: 0|req: 22/46] 127.0.0.1 () {36 vars in 598 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods016.jpg => generated 179 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 13/47] 127.0.0.1 () {36 vars in 596 bytes} [Mon Feb 24 22:45:30 2020] GET /media/type/banner06.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22463|app: 0|req: 14/48] 127.0.0.1 () {36 vars in 598 bytes} [Mon Feb 24 22:45:30 2020] GET /media/goods/goods018.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22467|app: 0|req: 2/49] 127.0.0.1 () {36 vars in 595 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/adv02.jpg => generated 179 bytes in 514 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 22467|app: 0|req: 2/50] 127.0.0.1 () {36 vars in 595 bytes} [Mon Feb 24 22:45:30 2020] GET /media/banner/adv01.jpg => generated 179 bytes in 518 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 22469|app: 0|req: 23/51] 127.0.0.1 () {34 vars in 534 bytes} [Mon Feb 24 22:45:31 2020] GET /favicon.ico => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 22471)
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 23:04:08 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x5642f522b600
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5642f522b600 pid: 22707 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 22707)
+spawned uWSGI worker 1 (pid: 22711, cores: 2)
+spawned uWSGI worker 2 (pid: 22713, cores: 2)
+spawned uWSGI worker 3 (pid: 22715, cores: 2)
+spawned uWSGI worker 4 (pid: 22717, cores: 2)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+...brutally killing workers...
+worker 1 buried after 3 seconds
+worker 2 buried after 3 seconds
+worker 3 buried after 3 seconds
+worker 4 buried after 3 seconds
+binary reloading uWSGI...
+chdir() to /home/thy/Desktop/projects/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 4096)...
+found fd 3 mapped to socket 0 (127.0.0.1:8000)
+running /home/thy/.virtualenvs/django/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 23:05:44 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x55e76e8773c0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55e76e8773c0 pid: 22394 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 22394)
+spawned uWSGI worker 1 (pid: 22740, cores: 2)
+spawned uWSGI worker 2 (pid: 22742, cores: 2)
+spawned uWSGI worker 3 (pid: 22743, cores: 2)
+spawned uWSGI worker 4 (pid: 22746, cores: 2)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 23:06:14 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 4096
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 23:14:40 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8080).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 22746|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 673 bytes} [Mon Feb 24 23:15:08 2020] GET /index => generated 179 bytes in 357 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 23:35:00 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x5603afd87640
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x5603afd87640 pid: 2241 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2241)
+spawned uWSGI worker 1 (pid: 2245, cores: 2)
+spawned uWSGI worker 2 (pid: 2247, cores: 2)
+spawned uWSGI worker 3 (pid: 2248, cores: 2)
+spawned uWSGI worker 4 (pid: 2251, cores: 2)
+[pid: 2245|app: 0|req: 2/1] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:27 2020] GET /static/media/banner/slide04.jpg => generated 179 bytes in 594 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2251|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:27 2020] GET /static/media/banner/slide02.jpg => generated 179 bytes in 602 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2245|app: 0|req: 3/4] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/goods002.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2245|app: 0|req: 2/3] 127.0.0.1 () {40 vars in 659 bytes} [Mon Feb 24 23:42:27 2020] GET /static/media/banner/adv02.jpg => generated 179 bytes in 589 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2245|app: 0|req: 4/5] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/goods004.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2247|app: 0|req: 2/6] 127.0.0.1 () {40 vars in 659 bytes} [Mon Feb 24 23:42:27 2020] GET /static/media/banner/adv01.jpg => generated 179 bytes in 598 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2251|app: 0|req: 2/7] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/type/banner01.jpg => generated 179 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2245|app: 0|req: 5/8] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/type/banner02.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2247|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 671 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/goods_detail.jpg => generated 179 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2245|app: 0|req: 6/10] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/goods021.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2245|app: 0|req: 7/11] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/slide03.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2251|app: 0|req: 3/12] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/type/banner04.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2245|app: 0|req: 9/13] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/type/banner03.jpg => generated 179 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2251|app: 0|req: 4/14] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/goods008.jpg => generated 179 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2245|app: 0|req: 10/15] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/type/banner05.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2245|app: 0|req: 11/16] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/goods018.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2245|app: 0|req: 11/17] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/slide04.jpg => generated 179 bytes in 11 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2247|app: 0|req: 4/19] 127.0.0.1 () {40 vars in 661 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/type/banner06.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2247|app: 0|req: 4/19] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:28 2020] GET /static/media/goods/goods016.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2248|app: 0|req: 2/20] 127.0.0.1 () {40 vars in 663 bytes} [Mon Feb 24 23:42:27 2020] GET /static/media/banner/slide03.jpg => generated 179 bytes in 628 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2248|app: 0|req: 2/21] 127.0.0.1 () {40 vars in 675 bytes} [Mon Feb 24 23:42:27 2020] GET /static/media/banner/slide_dHGFI2N.jpg => generated 179 bytes in 639 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2245|app: 0|req: 12/22] 127.0.0.1 () {40 vars in 673 bytes} [Mon Feb 24 23:43:03 2020] GET /index => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2251|app: 0|req: 5/23] 127.0.0.1 () {40 vars in 675 bytes} [Mon Feb 24 23:43:19 2020] GET /index/ => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Mon Feb 24 23:50:03 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x557ce8a23640
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x557ce8a23640 pid: 2838 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2838)
+spawned uWSGI worker 1 (pid: 2842, cores: 2)
+spawned uWSGI worker 2 (pid: 2843, cores: 2)
+spawned uWSGI worker 3 (pid: 2845, cores: 2)
+spawned uWSGI worker 4 (pid: 2848, cores: 2)
+[pid: 2845|app: 0|req: 1/1] 127.0.0.1 () {42 vars in 764 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/banner/slide_dHGFI2N.jpg => generated 179 bytes in 573 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 2/2] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/banner/slide03.jpg => generated 179 bytes in 569 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 3/3] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/type/banner01.jpg => generated 179 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 3/4] 127.0.0.1 () {42 vars in 760 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/goods_detail.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 2/5] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/goods002.jpg => generated 179 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 5/6] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/type/banner02.jpg => generated 179 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 6/7] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/goods004.jpg => generated 179 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 2/9] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/banner/slide04.jpg => generated 179 bytes in 579 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 2/9] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/banner/slide02.jpg => generated 179 bytes in 600 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 7/11] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/type/banner03.jpg => generated 179 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 4/11] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/slide04.jpg => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 3/12] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/goods008.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 4/13] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/type/banner05.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 8/14] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/goods021.jpg => generated 179 bytes in 17 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 8/15] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/type/banner04.jpg => generated 179 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 5/17] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/goods018.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 9/17] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/type/banner06.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 5/18] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/slide03.jpg => generated 179 bytes in 19 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 5/19] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/goods/goods016.jpg => generated 179 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 2/20] 127.0.0.1 () {42 vars in 748 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/banner/adv02.jpg => generated 179 bytes in 638 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2842|app: 0|req: 2/21] 127.0.0.1 () {42 vars in 748 bytes} [Mon Feb 24 23:50:09 2020] GET /static/media/banner/adv01.jpg => generated 179 bytes in 639 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 6/22] 127.0.0.1 () {44 vars in 807 bytes} [Mon Feb 24 23:50:11 2020] GET /user/login/ => generated 2147 bytes in 8 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 6/23] 127.0.0.1 () {42 vars in 749 bytes} [Mon Feb 24 23:50:11 2020] GET /static/images/logo02.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 10/24] 127.0.0.1 () {42 vars in 769 bytes} [Mon Feb 24 23:50:11 2020] GET /static/images/login_banner.png => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 7/25] 127.0.0.1 () {42 vars in 759 bytes} [Mon Feb 24 23:50:11 2020] GET /static/images/icons02.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 11/26] 127.0.0.1 () {44 vars in 813 bytes} [Mon Feb 24 23:50:16 2020] GET /user/register/ => generated 2644 bytes in 6 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 12/27] 127.0.0.1 () {42 vars in 735 bytes} [Mon Feb 24 23:50:16 2020] GET /static/js/register.js => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 13/28] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:16 2020] GET /static/images/logo02.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 14/29] 127.0.0.1 () {42 vars in 735 bytes} [Mon Feb 24 23:50:16 2020] GET /static/js/register.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 15/30] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:16 2020] GET /static/images/logo02.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 9/32] 127.0.0.1 () {42 vars in 775 bytes} [Mon Feb 24 23:50:16 2020] GET /static/images/register_banner.png => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 7/32] 127.0.0.1 () {42 vars in 759 bytes} [Mon Feb 24 23:50:16 2020] GET /static/images/icons02.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 9/33] 127.0.0.1 () {42 vars in 771 bytes} [Mon Feb 24 23:50:16 2020] GET /static/images/interval_line.png => generated 179 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 3/34] 127.0.0.1 () {42 vars in 764 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide_dHGFI2N.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 8/35] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide02.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 9/36] 127.0.0.1 () {42 vars in 748 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/adv01.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 17/37] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide04.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 17/38] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide03.jpg => generated 179 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 18/39] 127.0.0.1 () {42 vars in 748 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/adv02.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 10/40] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/type/banner01.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 19/41] 127.0.0.1 () {42 vars in 760 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/goods_detail.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 11/42] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/goods002.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 20/43] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/goods004.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 12/44] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/type/banner02.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 13/45] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/type/banner03.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 14/46] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/slide04.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 11/47] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/slide03.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 15/48] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/type/banner04.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 12/49] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/goods021.jpg => generated 179 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 13/50] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/goods008.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 21/51] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/goods016.jpg => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 4/53] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/goods/goods018.jpg => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 14/54] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/type/banner05.jpg => generated 179 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 14/54] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/type/banner06.jpg => generated 179 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 22/55] 127.0.0.1 () {42 vars in 764 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide_dHGFI2N.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 15/56] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide02.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 5/57] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide03.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 16/58] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/slide04.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 23/59] 127.0.0.1 () {42 vars in 748 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/adv01.jpg => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2842|app: 0|req: 6/60] 127.0.0.1 () {42 vars in 748 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/banner/adv02.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 24/61] 127.0.0.1 () {42 vars in 750 bytes} [Mon Feb 24 23:50:24 2020] GET /static/media/type/banner01.jpg => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 16/62] 127.0.0.1 () {44 vars in 807 bytes} [Mon Feb 24 23:50:30 2020] GET /user/login/ => generated 2147 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 17/63] 127.0.0.1 () {42 vars in 749 bytes} [Mon Feb 24 23:50:30 2020] GET /static/images/logo02.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 18/64] 127.0.0.1 () {42 vars in 769 bytes} [Mon Feb 24 23:50:30 2020] GET /static/images/login_banner.png => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 25/65] 127.0.0.1 () {42 vars in 759 bytes} [Mon Feb 24 23:50:30 2020] GET /static/images/icons02.png => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 26/66] 127.0.0.1 () {44 vars in 813 bytes} [Mon Feb 24 23:50:33 2020] GET /user/register/ => generated 2644 bytes in 2 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 7/67] 127.0.0.1 () {42 vars in 735 bytes} [Mon Feb 24 23:50:33 2020] GET /static/js/register.js => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 17/68] 127.0.0.1 () {42 vars in 752 bytes} [Mon Feb 24 23:50:33 2020] GET /static/images/logo02.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 19/69] 127.0.0.1 () {42 vars in 771 bytes} [Mon Feb 24 23:50:33 2020] GET /static/images/interval_line.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 8/70] 127.0.0.1 () {42 vars in 775 bytes} [Mon Feb 24 23:50:33 2020] GET /static/images/register_banner.png => generated 179 bytes in 1 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 20/71] 127.0.0.1 () {42 vars in 759 bytes} [Mon Feb 24 23:50:33 2020] GET /static/images/icons02.png => generated 179 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 18/72] 127.0.0.1 () {50 vars in 910 bytes} [Tue Feb 25 00:00:21 2020] GET / => generated 8389 bytes in 161 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 27/73] 127.0.0.1 () {44 vars in 799 bytes} [Tue Feb 25 00:00:26 2020] GET /goods/2 => generated 8335 bytes in 132 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 28/74] 127.0.0.1 () {44 vars in 795 bytes} [Tue Feb 25 00:00:31 2020] GET /cart/ => generated 0 bytes in 30 msecs (HTTP/1.1 302) 6 headers in 186 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 19/75] 127.0.0.1 () {44 vars in 828 bytes} [Tue Feb 25 00:00:31 2020] GET /user/login?next=/cart/ => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 162 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 21/76] 127.0.0.1 () {44 vars in 830 bytes} [Tue Feb 25 00:00:31 2020] GET /user/login/?next=/cart/ => generated 2147 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 29/77] 127.0.0.1 () {50 vars in 1001 bytes} [Tue Feb 25 00:00:38 2020] POST /user/login/?next=/cart/ => generated 0 bytes in 327 msecs (HTTP/1.1 302) 9 headers in 566 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 30/78] 127.0.0.1 () {44 vars in 862 bytes} [Tue Feb 25 00:00:38 2020] GET /cart/ => generated 10888 bytes in 348 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 9/79] 127.0.0.1 () {50 vars in 1004 bytes} [Tue Feb 25 00:00:43 2020] POST /order/palce/ => generated 0 bytes in 125 msecs (HTTP/1.1 302) 6 headers in 169 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 22/80] 127.0.0.1 () {44 vars in 844 bytes} [Tue Feb 25 00:00:44 2020] GET /cart/ => generated 10888 bytes in 218 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 31/81] 127.0.0.1 () {44 vars in 834 bytes} [Tue Feb 25 00:01:07 2020] GET / => generated 8393 bytes in 71 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 20/82] 127.0.0.1 () {44 vars in 882 bytes} [Tue Feb 25 00:01:12 2020] GET /search?q=%E8%8D%89%E8%8E%93 => generated 0 bytes in 1 msecs (HTTP/1.1 301) 4 headers in 167 bytes (1 switches on core 0)
+Building prefix dict from the default dictionary ...
+Dumping model to file cache /tmp/jieba.cache
+Loading model cost 1.116 seconds.
+Prefix dict has been built successfully.
+[pid: 2842|app: 0|req: 10/83] 127.0.0.1 () {44 vars in 884 bytes} [Tue Feb 25 00:01:12 2020] GET /search/?q=%E8%8D%89%E8%8E%93 => generated 3785 bytes in 1366 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 23/84] 127.0.0.1 () {44 vars in 874 bytes} [Tue Feb 25 00:01:17 2020] GET /search?q= => generated 0 bytes in 2 msecs (HTTP/1.1 301) 4 headers in 149 bytes (1 switches on core 0)
+[pid: 2842|app: 0|req: 11/85] 127.0.0.1 () {44 vars in 876 bytes} [Tue Feb 25 00:01:17 2020] GET /search/?q= => generated 2893 bytes in 28 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2842|app: 0|req: 12/86] 127.0.0.1 () {46 vars in 915 bytes} [Tue Feb 25 00:11:05 2020] GET /search/?q=%E8%8D%89%E8%8E%93 => generated 3785 bytes in 805 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 24/87] 127.0.0.1 () {44 vars in 874 bytes} [Tue Feb 25 00:11:08 2020] GET /user/login/?next=/cart/ => generated 2147 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 25/88] 127.0.0.1 () {44 vars in 839 bytes} [Tue Feb 25 00:11:10 2020] GET /cart/ => generated 10888 bytes in 224 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 21/89] 127.0.0.1 () {44 vars in 834 bytes} [Tue Feb 25 00:11:39 2020] GET / => generated 8393 bytes in 363 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2842|app: 0|req: 13/90] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:11:41 2020] GET / => generated 8393 bytes in 68 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 32/91] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:11:42 2020] GET / => generated 8393 bytes in 97 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2842|app: 0|req: 14/92] 127.0.0.1 () {44 vars in 843 bytes} [Tue Feb 25 00:11:43 2020] GET /goods/5 => generated 8209 bytes in 46 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 33/93] 127.0.0.1 () {44 vars in 839 bytes} [Tue Feb 25 00:58:32 2020] GET /cart/ => generated 10888 bytes in 28 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 34/94] 127.0.0.1 () {44 vars in 843 bytes} [Tue Feb 25 00:58:36 2020] GET /goods/4 => generated 8215 bytes in 141 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 35/95] 127.0.0.1 () {50 vars in 965 bytes} [Tue Feb 25 00:58:38 2020] POST /cart/add/ => generated 66 bytes in 49 msecs (HTTP/1.1 200) 5 headers in 141 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 36/96] 127.0.0.1 () {44 vars in 846 bytes} [Tue Feb 25 00:58:44 2020] GET /cart/ => generated 11528 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 37/97] 127.0.0.1 () {44 vars in 845 bytes} [Tue Feb 25 00:58:51 2020] GET /goods/10 => generated 8206 bytes in 50 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 38/98] 127.0.0.1 () {50 vars in 966 bytes} [Tue Feb 25 00:58:53 2020] POST /cart/add/ => generated 66 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 141 bytes (1 switches on core 1)
+[pid: 2842|app: 0|req: 15/99] 127.0.0.1 () {44 vars in 843 bytes} [Tue Feb 25 00:58:57 2020] GET /goods/7 => generated 8212 bytes in 163 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 39/100] 127.0.0.1 () {50 vars in 965 bytes} [Tue Feb 25 00:58:59 2020] POST /cart/add/ => generated 66 bytes in 14 msecs (HTTP/1.1 200) 5 headers in 141 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 40/101] 127.0.0.1 () {44 vars in 846 bytes} [Tue Feb 25 00:59:00 2020] GET /cart/ => generated 12804 bytes in 23 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 2845|app: 0|req: 26/102] 127.0.0.1 () {50 vars in 1006 bytes} [Tue Feb 25 00:59:02 2020] POST /order/palce/ => generated 6156 bytes in 160 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2842|app: 0|req: 16/103] 127.0.0.1 () {44 vars in 851 bytes} [Tue Feb 25 00:59:05 2020] GET /user/ => generated 5537 bytes in 661 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 41/104] 127.0.0.1 () {44 vars in 860 bytes} [Tue Feb 25 00:59:08 2020] GET /user/address/ => generated 3583 bytes in 126 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 42/105] 127.0.0.1 () {44 vars in 868 bytes} [Tue Feb 25 00:59:09 2020] GET /user/order/1/ => generated 5868 bytes in 392 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 22/106] 127.0.0.1 () {44 vars in 868 bytes} [Tue Feb 25 00:59:13 2020] GET /user/order/2/ => generated 5868 bytes in 290 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2843|app: 0|req: 23/107] 127.0.0.1 () {44 vars in 868 bytes} [Tue Feb 25 00:59:14 2020] GET /user/order/3/ => generated 5868 bytes in 52 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 24/108] 127.0.0.1 () {44 vars in 868 bytes} [Tue Feb 25 00:59:15 2020] GET /user/order/4/ => generated 5867 bytes in 50 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 43/109] 127.0.0.1 () {44 vars in 868 bytes} [Tue Feb 25 00:59:15 2020] GET /user/order/6/ => generated 5861 bytes in 41 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 44/110] 127.0.0.1 () {44 vars in 868 bytes} [Tue Feb 25 00:59:16 2020] GET /user/order/4/ => generated 5867 bytes in 51 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 45/111] 127.0.0.1 () {44 vars in 852 bytes} [Tue Feb 25 00:59:18 2020] GET /user/ => generated 5537 bytes in 18 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 46/112] 127.0.0.1 () {44 vars in 844 bytes} [Tue Feb 25 00:59:21 2020] GET /cart/ => generated 12804 bytes in 40 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 47/113] 127.0.0.1 () {44 vars in 860 bytes} [Tue Feb 25 00:59:24 2020] GET /user/order/1/ => generated 5868 bytes in 44 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 48/114] 127.0.0.1 () {44 vars in 842 bytes} [Tue Feb 25 00:59:27 2020] GET / => generated 8393 bytes in 412 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 25/115] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:59:48 2020] GET / => generated 8393 bytes in 88 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 49/116] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:59:49 2020] GET / => generated 8393 bytes in 59 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2848|app: 0|req: 50/117] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:59:50 2020] GET / => generated 8393 bytes in 163 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2843|app: 0|req: 26/118] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:59:51 2020] GET / => generated 8393 bytes in 59 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 2848|app: 0|req: 51/119] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:59:52 2020] GET / => generated 8393 bytes in 52 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 2845|app: 0|req: 27/120] 127.0.0.1 () {44 vars in 829 bytes} [Tue Feb 25 00:59:53 2020] GET / => generated 8393 bytes in 74 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 25 15:11:59 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x5561cbc08630
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x5561cbc08630 pid: 6469 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6469)
+spawned uWSGI worker 1 (pid: 6473, cores: 2)
+spawned uWSGI worker 2 (pid: 6475, cores: 2)
+spawned uWSGI worker 3 (pid: 6476, cores: 2)
+spawned uWSGI worker 4 (pid: 6479, cores: 2)
+[pid: 6476|app: 0|req: 1/1] 192.168.117.172 () {42 vars in 777 bytes} [Tue Feb 25 15:12:07 2020] GET / => generated 8407 bytes in 478 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6479|app: 0|req: 1/2] 192.168.117.172 () {40 vars in 704 bytes} [Tue Feb 25 15:12:08 2020] GET /favicon.ico => generated 179 bytes in 434 msecs (HTTP/1.1 404) 4 headers in 128 bytes (1 switches on core 0)
+[pid: 6476|app: 0|req: 2/3] 192.168.117.172 () {44 vars in 816 bytes} [Tue Feb 25 15:12:13 2020] GET / => generated 8407 bytes in 75 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6479|app: 0|req: 2/4] 192.168.117.172 () {46 vars in 847 bytes} [Tue Feb 25 15:12:14 2020] GET / => generated 8407 bytes in 97 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6479|app: 0|req: 3/5] 192.168.117.172 () {46 vars in 847 bytes} [Tue Feb 25 15:12:15 2020] GET / => generated 8407 bytes in 307 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6479|app: 0|req: 4/6] 192.168.117.172 () {42 vars in 777 bytes} [Tue Feb 25 15:12:23 2020] GET / => generated 8407 bytes in 58 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Tue Feb 25 15:15:45 2020] ***
+compiled with version: 7.4.0 on 24 February 2020 14:20:27
+os: Linux-5.3.0-40-generic #32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 4
+current working directory: /home/thy/Desktop/projects/dailyfresh
+writing pidfile to uwsgi.pid
+detected binary path: /home/thy/.virtualenvs/django/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/thy/Desktop/projects/dailyfresh
+your processes number limit is 7645
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 0.0.0.0:8080 fd 3
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/thy/.virtualenvs/django
+Python main interpreter initialized at 0x5645c34cb630
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416720 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x5645c34cb630 pid: 6525 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6525)
+spawned uWSGI worker 1 (pid: 6529, cores: 2)
+spawned uWSGI worker 2 (pid: 6530, cores: 2)
+spawned uWSGI worker 3 (pid: 6532, cores: 2)
+spawned uWSGI worker 4 (pid: 6534, cores: 2)
+[pid: 6530|app: 0|req: 1/1] 192.168.117.172 () {44 vars in 808 bytes} [Tue Feb 25 15:15:48 2020] GET / => generated 8407 bytes in 407 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6532|app: 0|req: 1/2] 192.168.117.172 () {44 vars in 838 bytes} [Tue Feb 25 15:15:56 2020] GET /user/login/ => generated 2170 bytes in 232 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 2/3] 192.168.117.172 () {50 vars in 1003 bytes} [Tue Feb 25 15:16:02 2020] POST /user/login/ => generated 0 bytes in 161 msecs (HTTP/1.1 302) 9 headers in 570 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 3/4] 192.168.117.172 () {44 vars in 875 bytes} [Tue Feb 25 15:16:02 2020] GET / => generated 8414 bytes in 61 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 4/5] 192.168.117.172 () {44 vars in 874 bytes} [Tue Feb 25 15:16:05 2020] GET /user/ => generated 2971 bytes in 1032 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6534|app: 0|req: 1/6] 192.168.117.172 () {44 vars in 895 bytes} [Tue Feb 25 15:16:08 2020] GET /user/order/1/ => generated 4674 bytes in 305 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 5/7] 192.168.117.172 () {44 vars in 903 bytes} [Tue Feb 25 15:16:09 2020] GET /user/address/ => generated 3646 bytes in 18 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 6529|app: 0|req: 1/8] 192.168.117.172 () {50 vars in 1057 bytes} [Tue Feb 25 15:16:17 2020] POST /user/address/ => generated 3650 bytes in 382 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 6529|app: 0|req: 2/9] 192.168.117.172 () {50 vars in 1057 bytes} [Tue Feb 25 15:16:26 2020] POST /user/address/ => generated 0 bytes in 205 msecs (HTTP/1.1 302) 6 headers in 177 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 6/10] 192.168.117.172 () {44 vars in 903 bytes} [Tue Feb 25 15:16:26 2020] GET /user/address/ => generated 3675 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 7/11] 192.168.117.172 () {44 vars in 903 bytes} [Tue Feb 25 15:16:28 2020] GET /user/order/1/ => generated 4674 bytes in 20 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 8/12] 192.168.117.172 () {44 vars in 887 bytes} [Tue Feb 25 15:16:29 2020] GET /user/ => generated 2989 bytes in 161 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6532|app: 0|req: 2/13] 192.168.117.172 () {44 vars in 879 bytes} [Tue Feb 25 15:16:31 2020] GET /cart/ => generated 10978 bytes in 32 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 9/14] 192.168.117.172 () {44 vars in 879 bytes} [Tue Feb 25 15:16:33 2020] GET /user/ => generated 2989 bytes in 614 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6534|app: 0|req: 2/15] 192.168.117.172 () {44 vars in 895 bytes} [Tue Feb 25 15:16:34 2020] GET /user/order/1/ => generated 4674 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 10/16] 192.168.117.172 () {44 vars in 903 bytes} [Tue Feb 25 15:16:35 2020] GET /user/order/1/ => generated 4674 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 6529|app: 0|req: 3/17] 192.168.117.172 () {44 vars in 887 bytes} [Tue Feb 25 15:16:36 2020] GET /user/ => generated 2989 bytes in 242 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6534|app: 0|req: 3/18] 192.168.117.172 () {44 vars in 869 bytes} [Tue Feb 25 15:16:40 2020] GET / => generated 8414 bytes in 69 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6532|app: 0|req: 3/19] 192.168.117.172 () {44 vars in 881 bytes} [Tue Feb 25 15:16:42 2020] GET /search?q= => generated 0 bytes in 0 msecs (HTTP/1.1 301) 4 headers in 149 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 11/20] 192.168.117.172 () {44 vars in 883 bytes} [Tue Feb 25 15:16:42 2020] GET /search/?q= => generated 2896 bytes in 15 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 12/21] 192.168.117.172 () {44 vars in 884 bytes} [Tue Feb 25 15:16:44 2020] GET /cart/ => generated 10978 bytes in 262 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 6532|app: 0|req: 4/22] 192.168.117.172 () {44 vars in 869 bytes} [Tue Feb 25 15:16:45 2020] GET / => generated 8414 bytes in 240 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6534|app: 0|req: 4/23] 192.168.117.172 () {44 vars in 864 bytes} [Tue Feb 25 15:16:49 2020] GET / => generated 8414 bytes in 63 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 13/24] 192.168.117.172 () {44 vars in 880 bytes} [Tue Feb 25 15:17:02 2020] GET /goods/12 => generated 8031 bytes in 47 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 14/25] 192.168.117.172 () {44 vars in 874 bytes} [Tue Feb 25 15:17:07 2020] GET /cart/ => generated 10978 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 320 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 15/26] 192.168.117.172 () {44 vars in 895 bytes} [Tue Feb 25 15:17:09 2020] GET /user/order/1/ => generated 4674 bytes in 17 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 16/27] 192.168.117.172 () {44 vars in 887 bytes} [Tue Feb 25 15:17:10 2020] GET /user/ => generated 3455 bytes in 19 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6532|app: 0|req: 5/28] 192.168.117.172 () {44 vars in 869 bytes} [Tue Feb 25 15:17:15 2020] GET / => generated 8414 bytes in 299 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6534|app: 0|req: 5/29] 192.168.117.172 () {44 vars in 878 bytes} [Tue Feb 25 15:17:16 2020] GET /goods/2 => generated 8512 bytes in 614 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+[pid: 6534|app: 0|req: 6/30] 192.168.117.172 () {44 vars in 897 bytes} [Tue Feb 25 15:17:18 2020] GET /user/order/1/ => generated 4674 bytes in 235 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 17/31] 192.168.117.172 () {44 vars in 887 bytes} [Tue Feb 25 15:17:20 2020] GET /user/ => generated 4005 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 18/32] 192.168.117.172 () {44 vars in 888 bytes} [Tue Feb 25 15:17:22 2020] GET /search/?q= => generated 2896 bytes in 301 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6532|app: 0|req: 6/33] 192.168.117.172 () {44 vars in 893 bytes} [Tue Feb 25 15:17:24 2020] GET /search/?q= => generated 2896 bytes in 21 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6529|app: 0|req: 4/34] 192.168.117.172 () {44 vars in 893 bytes} [Tue Feb 25 15:17:25 2020] GET /search/?q= => generated 2896 bytes in 20 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6532|app: 0|req: 7/35] 192.168.117.172 () {44 vars in 869 bytes} [Tue Feb 25 15:17:27 2020] GET / => generated 8414 bytes in 61 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 19/36] 192.168.117.172 () {44 vars in 864 bytes} [Tue Feb 25 15:17:33 2020] GET / => generated 8414 bytes in 59 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+[pid: 6530|app: 0|req: 20/37] 192.168.117.172 () {44 vars in 864 bytes} [Tue Feb 25 15:17:34 2020] GET / => generated 8414 bytes in 66 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 0)
+[pid: 6530|app: 0|req: 21/38] 192.168.117.172 () {44 vars in 864 bytes} [Tue Feb 25 15:17:35 2020] GET / => generated 8414 bytes in 96 msecs (HTTP/1.1 200) 5 headers in 151 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+goodbye to uWSGI.
